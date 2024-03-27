@@ -24,6 +24,7 @@ onMounted(() => {
     <el-button @click="open">elMessage</el-button>
 
     <div>{{counter.count}}</div>
+    <canvas style="width: 100px;height: 100px;"></canvas>
   </div>
 </template>
 

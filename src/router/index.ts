@@ -30,6 +30,11 @@ const router = createRouter({
       path: '/login',
       name: 'login',
       component: () => import('../views/login/index.vue')
+    },
+    {
+      path: '/cropperTools',
+      name: 'cropperTools',
+      component: () => import('../views/tools/cropperTools/index.vue')
     }
   ]
 })
